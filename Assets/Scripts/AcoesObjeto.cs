@@ -12,13 +12,11 @@ public class AcoesObjeto : MonoBehaviour
 
     void Update()
     {
-        // Condicional para pegar objetos
         if (Input.GetKeyDown(KeyCode.F) && idObjetos.GetObjPegar() != null)
         {
             Pegar();
         }
 
-        // Condicional para arrastar objetos
         if (Input.GetKeyDown(KeyCode.F) && idObjetos.GetObjArrastar() != null)
         {
             if (!pegou)

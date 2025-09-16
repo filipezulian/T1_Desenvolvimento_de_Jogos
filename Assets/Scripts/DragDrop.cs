@@ -8,12 +8,6 @@ public class DragDrop : MonoBehaviour
     {
         return Camera.main.WorldToScreenPoint(transform.position);
     }
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
 
     public void Ativar()
     {
