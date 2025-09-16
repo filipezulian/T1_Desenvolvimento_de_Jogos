@@ -3,8 +3,8 @@ using UnityEngine;
 public class Respirando : MonoBehaviour
 {
     private bool estahInspirando = true;
-    public float minAltura = -0.035f;
-    public float maxAltura = 0.035f;
+    public float minAltura = -0.05f;
+    public float maxAltura = 0.05f;
 
     [Range(0f, 5f)]
     public float forcaResp = 1f;

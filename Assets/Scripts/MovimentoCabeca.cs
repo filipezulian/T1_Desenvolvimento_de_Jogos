@@ -3,8 +3,8 @@ using UnityEngine;
 public class MovimentoCabeca : MonoBehaviour
 {
     private float tempo = 0.0f;
-    public float velocidade = 0.1f;
-    public float forca = 0.2f;
+    public float velocidade = 0.025f;
+    public float forca = 0.075f;
     public float pontoOrigem = 0.0f;
 
     private Vector3 salvaPosicao;
@@ -27,7 +27,7 @@ public class MovimentoCabeca : MonoBehaviour
         {
             tempo = 0.0f;
         }
-        else 
+        else
         {
             cortaOnda = Mathf.Sin(tempo);
             tempo = tempo + velocidade;
