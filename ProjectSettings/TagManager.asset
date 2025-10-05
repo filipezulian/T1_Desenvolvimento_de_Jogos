@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Arrastar
   - Pegar
+  - Arma
+  - LevarDano
+  - HideBossSlider
+  - ScoreText
+  - EntrarCarro
   layers:
   - Default
   - TransparentFX
